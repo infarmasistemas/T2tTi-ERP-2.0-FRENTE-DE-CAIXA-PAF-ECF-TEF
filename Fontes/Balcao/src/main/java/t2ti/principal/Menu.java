@@ -72,8 +72,8 @@ public class Menu implements LoginController, MDIController {
     }
 
     Hashtable xmlFiles = new Hashtable();
-    xmlFiles.put("EN", "main/resources/Resources_en.xml");
-    xmlFiles.put("PT_BR", "main/resources/Resources_pt_br.xml");
+    xmlFiles.put("EN", "src/main/resources/Resources_en.xml");
+    xmlFiles.put("PT_BR", "src/main/resources/Resources_pt_br.xml");
     ClientSettings clientSettings = new ClientSettings(new XMLResourcesFactory(xmlFiles, true), null);
     ClientSettings.PERC_TREE_FOLDER = "folder3.gif";
     ClientSettings.BACKGROUND = "background4.jpg";
